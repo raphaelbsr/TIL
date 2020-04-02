@@ -2,7 +2,7 @@
 
 ### How to solve module not found error when compile typescript project
 
-If we set path alias in tsconfig.json, we should got a module not found error at runtime, to solve this we need to install module-alias lib and define the paths in \_moduleAliases options in pakage.json.
+If we set path alias in tsconfig.json, we might got a "module not found" error at runtime, to solve this we need to install module-alias lib and define the paths in \_moduleAliases options in pakage.json.
 
 ```javascript
 // 1 - Install module-alias
