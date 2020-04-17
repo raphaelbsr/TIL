@@ -8,6 +8,6 @@
 docker network ls
 
 //Inspect container network
-docker inspect [natwork name]
+docker inspect [network name]
 
 ```
